@@ -1,0 +1,27 @@
+#main {
+	background-color: #4EBB4E;
+	width: 48%;
+	max-height: 500px;
+	margin: 1em 0.5em;
+	overflow: scroll;
+	border: 1px solid black;
+}
+
+#top-results {
+	background-color: #9696EA;
+	width: 48%;
+	max-height: 500px;
+	margin: 1em 0.5em;
+	overflow: scroll;
+	border: 1px solid black;
+}
+
+#app {
+	background-color: yellow;
+	margin-bottom: 0.5em;
+	display: flex;
+}
+
+header, h3 {
+	text-align: center;
+}
