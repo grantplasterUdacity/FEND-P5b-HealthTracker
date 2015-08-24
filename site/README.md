@@ -17,3 +17,8 @@ food item models.
 The appView.js does the bulk of the heavy lifting. Users can add items to their list
 from the Nutritionix data list, and remove items from their list. The total number of
 items and summed calories is displayed at the bottom of the user's personal list.
+
+NOTE: The user needs to type slowly into the search bar because of the asynchronous
+ajax requests. They take a little time and if items are still listed after the search
+bar has been cleared then the user should just hit the backspace key again and it will
+clear the nutritionix data.

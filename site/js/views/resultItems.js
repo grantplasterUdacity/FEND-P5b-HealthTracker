@@ -34,11 +34,10 @@ app.ResultItemsView = Backbone.View.extend({
 	// duplicate models in regards to name and calorie attributes.
 	// The new model is saved to the collection and database.
 	addToFoods : function() {
-		var newFood = new app.FoodItem({
+		app.FoodItems.create({
 			name : this.model.get('name'),
 			calories : this.model.get('calories'),
 			count : app.FoodItems.length
 		});
-		app.FoodItems.create(newFood);
 	}
 });

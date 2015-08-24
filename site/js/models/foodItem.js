@@ -10,5 +10,5 @@ app.FoodItem = Backbone.Model.extend({
 		name : '',
 		count : 1,
 		calories : 0
-	}
+	},
 });

@@ -117,7 +117,10 @@ app.AppView = Backbone.View.extend({
 					});
 
 					if (!app.ResultItems.contains(requestedItem)) {
-						app.ResultItems.create(requestedItem);
+						app.ResultItems.create({
+							name : item.item_name + ' (' + item.brand_name + ')',
+							calories : item.nutrient_value
+						});
 					}
 				});
 			},
